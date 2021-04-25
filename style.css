@@ -1,0 +1,228 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+/* general */
+.full-width{
+    width: 100%;
+}
+/* end general */
+/* header top */
+.header-top{
+    min-height: 35px;
+}
+.nav li a{
+    color: rgba(102,102,102,0.85);
+    text-decoration: none;
+    font-size: .85em;
+    padding: 10px 0;
+}
+.nav li.nav-item-small{
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-uppercase li a{
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+.nav-divided li{
+    margin: 0 .7em;
+}
+.nav-divided > li + li > a:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1px;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    height: 15px;
+    margin-top: -7px;
+    left: -1em;
+}
+.header-wrapper .navbar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-wrapper .navbar:not(.menu-custom){
+    height: 100%;
+    min-height: auto;
+    border: 0;
+}
+.header-wrapper .navbar li a{
+    text-decoration: none;
+}
+/* end header top */
+/* header content */
+.header-content{
+    background-image: url(https://bizhostvn.com/w/aomua/wp-content/uploads/2017/08/banner1.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 145px;
+    z-index: 10;
+    position: relative;
+}
+.logo{
+    width: 295px;
+    margin-right: 30px;
+}
+.logo img{
+    padding: 5px 0;
+    max-height: 143px;
+    vertical-align: middle;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+.search-block a{
+    text-decoration: none;
+}
+.search-form {
+    padding: 20px 0 10px 0;
+}
+input.search-input {
+    border-top-left-radius: 5px;
+    border: 1px solid #0092ff;
+    height: 39px;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+}
+button#btnSubmit {
+    background-color: #0092ff;
+}
+button#btnSubmit i {
+    color: #fff !important;
+}
+.icon-box {
+    margin: 30px 0 10px 0;
+}
+.icon-box-left{
+    display: flex;
+    flex-flow: row wrap;
+}
+.box-text{
+    padding-left: 1em;
+}
+/* end header content */
+/* header nav */
+.header-nav{
+    background-color: #041133;
+    min-height: 40px;
+}
+.header-nav > .d-flex > .flex-left{
+    width: 25%;
+    max-width: 282px;
+    min-width: 245px;
+    margin-right: 15px;
+}
+#mega-menu-wrap{
+    background: #0092ff;
+    position: relative;
+}
+#mega-menu-title {
+    padding: 10px 0 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    font-weight: normal;
+}
+#mega-menu-title i{
+    margin-right: 9px;
+}
+ul#mega-menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    margin-top: 0;
+    left: 0;
+    border: 1px solid #ddd;
+    padding: 0;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    z-index: 999;
+}
+#mega-menu li:not(:last-child){
+    border-bottom: 1px solid #ddd;
+}
+#mega-menu > li > a {
+    padding-left: 15px;
+}
+#mega-menu li a {
+    font-size: 15px;
+    color: #404040;
+    padding: 10px 15px;
+    display: block;
+}
+#mega-menu > li:hover > a {
+    background: #f5f5f5;
+}
+#mega-menu > li > a > i, #mega-menu > li > a > img{
+    margin-right: .5em;
+}
+.flex-center ul.navbar {
+    justify-content: right;
+}
+.flex-center ul.navbar li a{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .9em;
+    line-height: 16px;
+    letter-spacing: .02em;
+}
+.flex-center ul.navbar li:not(.active) a{
+    color: #fff;
+}
+.flex-center ul.navbar li:not(.active):hover a{
+    color: #0092FF;
+}
+/* end header nav */
+/* section-advantage-product */
+.section-advantage-product{
+    padding: 30px 0;
+    position: relative;
+    min-height: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.bg-section{
+    background-image: url('https://bizhostvn.com/w/aomua/wp-content/uploads/2017/08/banner-projects.jpg');
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.effect-rain {
+    /* background-image: url('image/rain.png'); */
+    animation: rain 2s linear infinite;
+}.no-click {
+    pointer-events: none;
+}
+.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.section-product-content{
+    z-index: 100;
+}
+/* end section-advantage-product */

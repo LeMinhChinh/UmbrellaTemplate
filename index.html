@@ -23,7 +23,7 @@
             <div class="header-top d-flex align-items-center" id="top-bar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 show-header-desktop">
                             <ul class="nav nav-divided">
                                 <li class="nav-item nav-item-small">
                                     bizhostvn.com
@@ -46,7 +46,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 show-header-desktop">
                             <ul class="nav nav-divided justify-content-end">
                                 <li class="nav-item">
                                     <a href="https://bizhostvn.com/w/aomua/dia-chi/" class="nav-top-link">Địa chỉ</a>
@@ -61,11 +61,21 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12 show-header-mobile">
+                            <p class="text-uppercase text-center"><strong>Add anything here or just remove it...</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="header-content d-flex align-items-center">
                 <div class="container flex-row d-flex">
+                    <div id="menu-mobile" class="flex-mobile d-flex justify-content-start">
+                        <ul class="nav">
+                            <li>
+                                <a href="#" data-open="open-menu" data-open-off-canvas="data-open-off-canvas"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                     <div id="logo" class="logo d-flex align-items-center flex-col header-left-content flex-shrink-0">
                         <a href="https://bizhostvn.com/w/aomua/" title="aomua">
                             <img width="295" height="143"
@@ -147,6 +157,13 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div id="cart-mobile" class="flex-mobile d-flex justify-content-end">
+                        <ul class="nav">
+                            <li>
+                                <a href="#" data-open="open-cart-draw" data-open-off-canvas="data-open-off-canvas"><i class="fas fa-briefcase"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -531,7 +548,7 @@
                         </div>
                         <div class="col-xxl-9 col-lg-9 col-xl-9 col-md-9">
                             <div class="row">
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -557,7 +574,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -583,7 +600,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -609,7 +626,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -648,7 +665,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -674,7 +691,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -713,7 +730,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -739,7 +756,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -790,7 +807,7 @@
                     <div class="row">
                         <div class="col-xxl-9 col-lg-9 col-xl-9 col-md-9">
                             <div class="row">
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -816,7 +833,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -842,7 +859,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -868,7 +885,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -907,7 +924,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -933,7 +950,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -972,7 +989,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -998,7 +1015,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1084,7 +1101,7 @@
                         </div>
                         <div class="col-xxl-9 col-lg-9 col-xl-9 col-md-9">
                             <div class="row">
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1110,7 +1127,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1136,7 +1153,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1162,7 +1179,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover cate-item-top">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -1201,7 +1218,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1227,7 +1244,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div class="badge-container">
                                             <div class="badge badge-square">
@@ -1266,7 +1283,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1292,7 +1309,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-3">
+                                <div class="col-xxl-3 col-lg-3 col-xl-3 col-md-4">
                                     <div class="cate-item item-hover">
                                         <div>
                                             <div class="box-img box-img-hover">
@@ -1484,7 +1501,7 @@
         <div class="section-footer-copy-right">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-6 col-lg-6 col-xl-6 col-md-6" >
+                    <div class="col-xxl-6 col-lg-6 col-xl-6 col-md-12 footer-left" >
                        <div style="max-width: max-content;">
                             <ul id="footer-menu-top" class="text-uppercase nav">
                                 <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/dia-chi/">Địa chỉ</a></li>
@@ -1498,7 +1515,7 @@
                             </div>
                        </div>
                     </div>
-                    <div class="col-xxl-6 col-lg-6 col-xl-6 col-md-6 text-end">
+                    <div class="col-xxl-6 col-lg-6 col-xl-6 col-md-12 text-end footer-right">
                         <div class="payment-icons inline-block">
                             <div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 32">
@@ -1543,6 +1560,94 @@
         </div>
     </footer>
 
+    <div class="modal-overlay"></div>
+    <div id="off-canvas">
+        <div id="main-menu-mobile" class="modal-open">
+            <ul class="nav nav-sidebar nav-vertical nav-uppercase">
+                <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/" aria-current="page">Trang chủ</a></li>
+                <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/gioi-thieu/">Giới thiệu</a></li>
+                <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/blog/">Tin tức</a></li>
+                <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/thanh-toan-van-chuyen/">Thanh toán &amp; Vận chuyển</a></li>
+                <li class="nav-item"><a href="https://bizhostvn.com/w/aomua/lien-he/">Liên hệ</a></li>
+                <div id="mega-menu-wrap">
+                    <div id="mega-menu-title"><i class="fas fa-bars"></i> Danh mục sản phẩm</div>
+                </div>
+                <ul id="mega-menu-mobile" class="menu navbar menu-custom full-width">
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-tu-dong-nam/">
+                            <img src="https://bizhostvn.com/w/aomua/wp-content/uploads/2017/08/icon-2-1.png"
+                                class="_mi _before _svg" aria-hidden="true" style="width:1.3em;">
+                            <span>Ô dù tự động nam</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-tu-dong-nu/">
+                            <i class="fas fa-magic" style="width:1.3em;"></i>
+                            <span>Ô dù tự động nữ</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-du-cam-tay/">
+                            <i class="fas fa-candy-cane" style="width:1.3em;"></i>
+                            <span>Ô dù cầm tay</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-chong-tia-uv/">
+                            <i class="fas fa-hand-holding-water" style="width:1.3em;"></i>
+                            <span>Ô dù chống tia UV</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-can-dai/">
+                            <img src="https://bizhostvn.com/w/aomua/wp-content/uploads/2017/08/icon-2-1.png"
+                                class="_mi _before _svg" aria-hidden="true" style="width:1.3em;">
+                            <span>Ô dù cán dài</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-quang-cao/">
+                            <i class="fab fa-buysellads" style="width:1.3em;"></i>
+                            <span>Ô dù quảng cáo</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/o-du-che-nang/">
+                            <i class="fas fa-cloud-sun" style="width:1.3em;"></i>
+                            <span>Ô dù che nắng</span>
+                        </a>
+                    </li>
+                    <li id="menu-item"
+                        class="nav-item menu-item menu-item-type-custom menu-item-object-custom full-width">
+                        <a href="https://bizhostvn.com/w/aomua/danh-muc/cac-loai-khac/">
+                            <i class="far fa-list-alt" style="width:1.3em"></i>
+                            <span>Các loại ô dù khác</span>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div id="main-cart-mobile" class="modal-open">
+            <div class="cart-popup-inner inner-padding">
+                <div class="cart-popup-title text-center">
+                    <h4 class="uppercase">Giỏ hàng</h4>
+                    <div class="is-divider"></div>
+                </div>
+              <p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+          </div>
+        </div>
+        <button type="button" class="modal-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
@@ -1557,13 +1662,13 @@
             margin: 30,
             nav: false,
             dots: true,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 2
                 },
                 1000: {
                     items: 3
